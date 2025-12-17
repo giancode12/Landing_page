@@ -20,6 +20,7 @@ body {
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 ul {
@@ -141,6 +142,55 @@ button {
 
 .author {
     font-weight: 900;
+}
+
+.cta_container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 130px;
+    border-radius: 5px;
+}
+
+.cta_main_container {
+    margin: 100px 200px;
+}
+
+.cta_title {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-bottom: -12px;
+}
+
+.desc {
+    color: white;
+}
+
+.cta_button {
+    border: 2px solid white;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: white;
+    font-weight: 900;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+
+.cta_button:hover {
+    cursor: pointer;
+    background-color: #2c6cd4;
+    transform: scale(1.03);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    margin-top: 20px;
+    padding: 35px;
+    color: white;
 }
 
 
